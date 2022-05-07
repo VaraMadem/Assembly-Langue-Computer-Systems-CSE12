@@ -1,0 +1,24 @@
+assignment:  Lab 2
+name:        Vara Madem
+cruzid:      vmadem
+
+----------------------------------------
+GRADE BREAKDOWN
+----------------------------------------
+0 / 30 Part-1 completed
+comment: Submission missing file lab2_part1.dig
+
+30 / 30 Part-2 completed
+30 / 30 Part-3 completed
+10 / 10 README.txt in the lab2/ directory exists (empty file allowed)
+
+30 / 30 Part-2 completed
+30 / 30 Part-3 completed
+10 / 10 README.txt in the lab2/ directory exists (empty file allowed)
+
+--------------------
+TOTAL
+
+points earned:   70
+lab total:       100
+late hours used: 37

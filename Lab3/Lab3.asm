@@ -14,6 +14,9 @@
 # Notes: This program is intended to be run from the MARS IDE.
 ##########################################################################
 
+#t0 = user input
+# t1, t2, t3 - loop counter
+
 .macro print_str(%string1) #macro to print any string
 	li a7,4 
 	la a0, %string1

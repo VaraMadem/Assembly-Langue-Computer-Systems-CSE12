@@ -10,53 +10,69 @@
 
 moveleft:
 	#enter code here
+	# add -1 to the a0 register and moving left
 	addi a0,a0,-1
+	#branching to the lab4_v2-1
 	b startGame
 	
 	
 movedown:
 	#enter code here
+	#add 1 to the a1 register and moving down
 	addi a1,a1,1
+	#branch to start game
 	b startGame
 	
 	
 moveright:
 	#enter code here
+	#add 1 to the a0 register and moving right
 	addi a0,a0,1
+	#branch to start game
 	b startGame
 		
 	
 moveup:
 	#enter code here
+	#add -1 to the a1 register and moving up 
 	addi a1,a1,-1
+	#branch to start game
 	b startGame
 	
 	
 moveDiagonalLeftUp:
 	#enter code here
+	#add -1 to the a0 register and -1 to the a1 register and moving diagonal left up
 	addi a0,a0,-1
 	addi a1,a1,-1
+	#branch to start game
 	b startGame
 
  	
 moveDiagonalLeftDown:
 
 	#enter code here
+	#add -1 to the a0 register and 1 to a1 register and moving diagonal left down
 	addi a0,a0,-1
 	addi a1,a1,1
+	#branch to start game
 	b startGame
  	
 moveDiagonalRightUp:
 
 	#enter code here
+	#add 1 to the a0 register and -1 to a1 register and moving diagonal right up
 	addi a0,a0,1
 	addi a1,a1,-1
+	#branch to start game
 	b startGame
  	
 
 moveDiagonalRightDown:
 
 	#enter code here
+	#add 1 to the a0 register and 1 to a1 register and moving diagonal right down
 	addi a0,a0,1
 	addi a1,a1,1
+	#branch to start game
 	b startGame

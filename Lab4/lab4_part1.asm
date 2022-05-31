@@ -13,27 +13,32 @@ xyCoordinatesToAddress:
 	#Enter code below!DO NOT MODIFY ANYTHING BEFORE THIS COMMENT LINE!
 	
 	
-	addi t0,zero,128
-	addi t1,zero,4
+	#add 0 to 128
+	addi t1,zero,128
+	#add 0 to 4
+	addi t2,zero,4
 	
-	addi t2,zero,0
+	# size * row size
+	addi t3,zero,0
 	
-	
+	#shift a0 by 2
 	slli a0,a0,2
 	
-	li t2,0
+	#load 0 into t2
+	li t3,0
 	
 	
+	#shift a0 by 7
 	slli a1,a1,7
 	
 	
-	
-	add t1,a0,a1
-	add a0,a2,t1
-	
-	
+	#add the 2 registers into t2 and add to a0
+	add t2,a0,a1
+	add a0,a2,t2
 	
 	
+	
+	#returning the common x register 
 	ret
 	
 	
